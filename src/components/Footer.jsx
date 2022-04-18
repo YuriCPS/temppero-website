@@ -13,7 +13,7 @@ function Footer() {
         src={logo}
         alt="Temppero"
       />
-      <div className="flex mt-6 space-x-4 ">
+      <div className="flex mt-6 space-x-4 sm:mt-0">
         <SocialLink
           title="Facebook"
           img={facebook}
