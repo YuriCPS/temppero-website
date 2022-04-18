@@ -3,6 +3,7 @@ import logo from '../images/logo2.png';
 import facebook from '../icons/facebook.svg';
 import instagram from '../icons/instagram.svg';
 import whatsapp from '../icons/whatsapp.svg';
+import SocialLink from './SocialLink';
 
 function Footer() {
   return (
@@ -13,20 +14,20 @@ function Footer() {
         alt="Temppero"
       />
       <div className="flex mt-6 space-x-4 ">
-        <img
-          className="h-20 "
-          src={facebook}
-          alt="Facebook"
+        <SocialLink
+          title="Facebook"
+          img={facebook}
+          url="https://www.facebook.com/Temppero/"
         />
-        <img
-          className="h-20 "
-          src={instagram}
-          alt="Instagram"
+        <SocialLink
+          title="Instagram"
+          img={instagram}
+          url="https://instagram.com/temppero/"
         />
-        <img
-          className="h-20 "
-          src={whatsapp}
-          alt="WhatsApp"
+        <SocialLink
+          title="WhatsApp"
+          img={whatsapp}
+          url="https://wa.me/558330996080"
         />
       </div>
     </div>
