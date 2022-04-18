@@ -5,6 +5,7 @@ import logo from './images/logo.png';
 import nossaComidaImg from './images/01.webp';
 import tempperoImg from './images/02.webp';
 import desdeImg from './images/03.webp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         text="Começamos com uma lanchonete de nome Big Boca, na mesma localidade onde funcionamos hoje. Com o tempo fomos crescendo e ampliando nosso cardápio até oferecer almoço, com o mesmo sabor caseiro que você se delicia hoje. Encerramos nossas atividades no ano de 2012, retornando em 2017 com novo nome, desta vez Temppero."
         img={desdeImg}
       />
+      <Footer />
     </>
   );
 }
