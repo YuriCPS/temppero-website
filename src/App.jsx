@@ -10,11 +10,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <h1 className="text-bordo text-center ">
+      <h1 className="text-bordo text-center">
         Restaurante Temppero
       </h1>
       <img
-        className="object-fill mx-auto "
+        className="object-fill mx-auto"
         src={logo}
         alt="Temppero"
         width="400"
