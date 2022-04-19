@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Button() {
   const [clicked, setClicked] = useState(false);
-  const message = "Clicando em 'FAÇA O SEU PEDIDO' você será direcionado para a página de pedidos onde poderá visualizar o cardápio, caso não tenha se cadastrado o processo é bem rápido! Não esqueça de escolher se você quer Deliery, Retirar no Local ou Consumir Aqui!";
+  const message = "Clicando em 'FAÇA O SEU PEDIDO' você será direcionado para a página de pedidos onde poderá visualizar o cardápio, caso você não tenha cadastro o processo é bem rápido! Não esqueça de escolher se você quer Deliery, Retirar no Local ou Consumir Aqui!";
 
   const firstClick = () => {
     setClicked(true);
@@ -13,7 +13,7 @@ function Button() {
       {!clicked
       && (
       <button
-        className="rounded-md text-xl font-medium bg-amber-400 hover:bg-amber-500 animate-bounce p-4 m-6"
+        className="rounded-md text-xl font-semibold bg-amber-400 hover:bg-amber-500 animate-bounce p-4 m-6"
         type="button"
         onClick={firstClick}
       >
@@ -25,7 +25,7 @@ function Button() {
       <div className="flex-col text-center">
         <a href="https://app.menudino.com/temppero">
           <button
-            className="rounded-md text-xl font-medium bg-amber-400 hover:bg-amber-500 animate-bounce p-4 mt-6 mx-auto"
+            className="rounded-md text-xl font-semibold bg-amber-400 hover:bg-amber-500 animate-bounce p-4 mt-6 mx-auto"
             type="button"
           >
             FAÇA SEU PEDIDO
