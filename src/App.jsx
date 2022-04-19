@@ -22,7 +22,7 @@ function App() {
       <Button />
       <Banner
         title="Nossa Comida"
-        text="Preparamos nossos pratos com os melhores ingredientes encontrados no mercado, zelando pela qualidade e sabor oferecido a nosso cliente. As melhores marcas e fornecedores para proporcionar a você o que há de melhor."
+        text="Preparamos nossos pratos com os melhores ingredientes encontrados no mercado, zelando pela qualidade e sabor oferecido ao nosso cliente. As melhores marcas e fornecedores para proporcionar a você o que há de melhor."
         img={nossaComidaImg}
       />
       <Banner

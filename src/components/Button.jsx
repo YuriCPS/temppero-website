@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Button() {
   const [clicked, setClicked] = useState(false);
-  const message = "Clicando em 'FAÇA O SEU PEDIDO' você será direcionado para a página de pedidos onde poderá visualizar o cardápio, caso você não tenha cadastro o processo é bem rápido! Não esqueça de escolher se você quer Deliery, Retirar no Local ou Consumir Aqui!";
+  const message = "Clicando em 'FAÇA O SEU PEDIDO' você será direcionado para a página de pedidos onde poderá visualizar o cardápio, caso você não tenha cadastro o processo é bem rápido! Não esqueça de escolher se você quer Delivery, Retirar no Local ou Consumir Aqui!";
 
   const firstClick = () => {
     setClicked(true);
