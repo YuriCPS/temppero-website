@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <h1 className="text-bordo text-center">
+      <h1 className="text-center text-bordo">
         Restaurante Temppero
       </h1>
       <img

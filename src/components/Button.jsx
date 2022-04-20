@@ -13,7 +13,7 @@ function Button() {
       {!clicked
       && (
       <button
-        className="rounded-md text-xl font-semibold bg-amber-400 hover:bg-amber-500 animate-bounce p-4 m-6"
+        className="p-4 m-6 text-xl font-semibold rounded-md bg-amber-400 hover:bg-amber-500 animate-bounce"
         type="button"
         onClick={firstClick}
       >
@@ -25,13 +25,13 @@ function Button() {
       <div className="flex-col text-center">
         <a href="https://app.menudino.com/temppero">
           <button
-            className="rounded-md text-xl font-semibold bg-amber-400 hover:bg-amber-500 animate-bounce p-4 mt-6 mx-auto"
+            className="p-4 mx-auto mt-6 text-xl font-semibold rounded-md bg-amber-400 hover:bg-amber-500 animate-bounce"
             type="button"
           >
             FAÇA SEU PEDIDO
           </button>
         </a>
-        <p className=" text-white font-semibold p-6 sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80">{message}</p>
+        <p className="p-6 font-semibold text-white sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80">{message}</p>
       </div>
       )}
     </div>

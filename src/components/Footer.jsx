@@ -7,7 +7,7 @@ import SocialLink from './SocialLink';
 
 function Footer() {
   return (
-    <div className="flex bg-gray-100 m-6 p-4 rounded-md flex-col items-center sm:flex-row sm:justify-center sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80">
+    <div className="flex flex-col items-center p-4 m-6 bg-gray-100 rounded-md sm:flex-row sm:justify-center sm:mx-10 md:mx-20 lg:mx-40 xl:mx-80">
       <img
         className="w-48 mx-10"
         src={logo}
